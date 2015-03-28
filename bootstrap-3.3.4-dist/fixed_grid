@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+ 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container" style="border: 1px solid">
+		<div class="row">
+            <h2>Home</h2>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+                <a href="index.html" class="btn btn-primary" value="Home" >Home</a>
+            </div>
+        <div class="row">
+        <div class="row">
+    		<h2>Navigation Buttons</h2>
+    	</div>
+		<div class="row">
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+    			<a href="index" class="btn btn-primary" value="Fixed Grid">Fixed Grid</a>
+    		</div>
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+				<input type="button" class="btn btn-primary" value="Button X">
+			</div>
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+    			<input type="button" class="btn btn-primary" value="Button Y">
+    		</div>
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+				<input type="button" class="btn btn-primary" value="Button Z">
+    		</div>
+    	</div>	
+    	<div class="row">
+    		<h2>Responsive Grid</h2>
+    	</div>
+    	<div class="row" style="border: 1px solid red">
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 1</p></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 2</p></div>
+    		<div class="clearfix visible-sm-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 3</p></div>
+    		<div class="clearfix visible-md-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 4</p></div>
+    		<div class="clearfix visible-sm-block"></div>
+    		<div class="clearfix visible-lg-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 5</p></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 6</p></div>
+    		<div class="clearfix visible-sm-block"></div>
+    		<div class="clearfix visible-md-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 7</p></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 8</p></div>
+    		<div class="clearfix visible-sm-block"></div>
+    		<div class="clearfix visible-lg-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 9</p></div>
+    		<div class="clearfix visible-md-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 10</p></div>
+    		<div class="clearfix visible-sm-block"></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 11</p></div>
+    		<div class="col-sm-6 col-md-4 col-lg-3"><p>Box 12</p></div>
+    	</div>
+    	<div class="row">
+    		<p class="visible-xs">You must be using a very small device</p>
+    		<p class="visible-sm">You must be using a small device</p>
+    		<p class="visible-md">You must be using a regular device</p>
+    		<p class="visible-lg">You must be using a ma-hooosive device</p>
+    	</div>	
+    </div>
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
