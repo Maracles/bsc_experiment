@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinema Camera Firmware Updates</title>
+ 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="container">
+		<div class="row">
+    		<div class="col-sm-12 col-md-12 col-lg-12" style="padding: 20px 0 0 15px">
+    			<a href="index.html" class="btn btn-default disabled" value="Home" >Home</a>
+    		</div>    		
+		</div>
+		<div class="row">
+			<div class="page-header">
+    			<h2>Cameras</h2>
+    		</div>
+    	</div>
+		<div class="row">
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+    			<a href="#" class="btn btn-primary" value="Arri" >Arri</a>
+    		</div>
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+				<a href="#" class="btn btn-primary" value="Sony">Sony</a>
+			</div>
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+    			<a href="#" class="btn btn-primary" value="Red">Red</a>
+    		</div>
+    		<div class="col-sm-6 col-md-6 col-lg-3">
+				<a href="#" class="btn btn-primary" value="Panasonic">Canon</a>
+    		</div>
+    	</div>
+    </div>
+    <div class="container">	
+    	<div class="row">
+    		<div class="page-header">
+    			<h2>Arri Alexa</h2>
+    		</div>	
+    	</div>
+    	<div class="row" style="border: 1px solid black">
+    		<h3>SUP 10</h3>
+    	</div>
+
+    	<div class="row">
+    		
+	    </div>	
+    	
+    	<div class="row">
+    		<div class="page-header">
+    			<h1>Paragraph Formatting</h1>
+    		</div>
+
+    		<p class="lead">This is the first sentence of the first paragraph I have written in Bootstrap.</p>
+    		<p>This is the second and has no special formatting.</p>
+    		<br />
+    		<p class="text-left">Left aligned text</p>
+    		<p class="text-center">Center aligned text</p>
+    		<p class="text-right">Right aligned text</p>
+    		<p class="text-justify">Justified text</p>
+    		<p class="text-nowrap">No wrap text.</p>
+    	
+    	</div>
+
+    	<div class="row">
+    		<div class="page-header">
+    			<h2>Text Formatting</h2>
+    		</div>
+
+    		<p><b>You can also make bold text</b></p>
+    		<p><big>This is a big text</big></p>
+    		<p><code>This is computer code text</code></p>
+    		<p><em>This is emphasised text</em></p>
+    		<p><i>This is ye old faithful italicsed text</i></p>
+    		<p><mark>This is highlighted text</mark></p>
+    		<p><small>Small text like we have seen before</small></p>
+    		<p><strong>This is strongly emphasised text, not sure how it is different from bold</strong></p>
+    		<p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+    		<p><ins>This text is inserted to the document</ins></p>
+    		<p><del>This is deleted from the document</del></p>
+	    	
+	    </div>	
+
+		<div class="row">	    
+			<div class="page-header">
+				<h2>Text Transformations</h2>
+			</div>
+
+			<p class="text-lowercase">lower case text</p>
+			<p class="text-uppercase">upper case text</p>
+			<p class="text-capitalize">All capitalized text - stupid American spelling</p>
+		</div>
+		
+		<div class="row">
+			<div class="page-header">
+				<h2>Text Emphasis</h2>
+			</div>
+
+			<p class="text-muted">Muted: This text is grayed out.</p>
+			<p class="text-primary">Important: Please read the instructions carefully before proceeding.</p>
+			<p class="text-success">Success: Your message has been sent successfully.</p>
+			<p class="text-info">Note: You must agree with the terms and conditions to complete the sign up process.</p>
+			<p class="text-warning">Warning: There was a problem with your network connection.</p>
+			<p class="text-danger">Error: An error has been occurred while submitting your data.</p>
+		</div>
+
+    	<div class="row" style="padding: 15px 0px 15px 0px">
+    		<div class="page-header">
+    			<h2>Element Visibility</h2>
+    		</div>		
+    		<p class="visible-xs">Extra Small device</p>
+    		<p class="visible-sm">Small device</p>
+    		<p class="visible-md">Medium device</p>
+    		<p class="visible-lg">Large device</p>
+    	</div>	
+
+    	<div class="row">
+	            <div class="col-xs-12">
+	            <footer>
+	                <p>&copy; Copyright 2015 James Malamatinas</p>
+	            </footer>
+	            </div>
+	    </div>
+
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
