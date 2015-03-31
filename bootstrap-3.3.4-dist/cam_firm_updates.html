@@ -1,137 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cinema Camera Firmware Updates</title>
- 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  	<div class="container">
-		<div class="row">
-    		<div class="col-sm-12 col-md-12 col-lg-12" style="padding: 20px 0 0 15px">
-    			<a href="index.html" class="btn btn-default disabled" value="Home" >Home</a>
-    		</div>    		
-		</div>
-		<div class="row">
-			<div class="page-header">
-    			<h2>Camera Firmware Information</h2>
-    		</div>
-    	</div>
-		<div class="row">
-    		<div class="col-sm-6 col-md-6 col-lg-3">
-    			<a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Arri" >Arri</a>
-    		</div>
-    		<div class="col-sm-6 col-md-6 col-lg-3">
-				<a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Sony">Sony</a>
-			</div>
-    		<div class="col-sm-6 col-md-6 col-lg-3">
-    			<a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Red">Red</a>
-    		</div>
-    		<div class="col-sm-6 col-md-6 col-lg-3">
-				<a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Panasonic">Canon</a>
-    		</div>
-    	</div>
-    </div>
-    <div class="container">	
-    	<div class="row">
-    		<div class="page-header">
-    			<h2>Arri Alexa</h2>
-    		</div>	
-    	</div>
-    	<div class="row">
-    		<h3>SUP 11.0.1</h3>
-            <br />
-            <h4>Bug Fixes:</h4>
-            <ul>
-                <li>a bug that created problems for third party equipment using the ALEXA metadata</li>
-                <li>a bug that could stop recording in rare cases when recording ProRes 3.2K 4444 @ 29.976 fps with audio</li>
-                <li>a bug that prevented the proper use of the PHASE button</li>
-                <li>a bug that made extended range the MON OUT default for 4:3 Sensor mode (when it should be legal range</li>
-            </ul>
-            <br />
-            <h4>New Features:</h4>
-            <ul>
-                <li><b>ALEXA ProRes 3.2K</b> (ALEXA XT/XR)<br />
-                    ALEXA ProRes 3.2K is a new recording resolution that uses 3.2K photosites from the sensor to record a 16:9 3.2K ProRes file. This format is specifically designed for TV productions that can create their 4K         UHD deliverable by up-sampling 3.2K to 3.8K (4K UHD) in post. Despite the minor up-scale, the image quality is usually equal to or better than that of other cameras.
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cinema Camera Firmware Updates</title>
+     
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+     
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12" style="padding: 20px 0 0 15px">
+                        <a href="index.html" class="btn btn-default disabled" value="Home" >Home</a>
+                    </div>    		
+                </div>
+                <div class="row">
+    	           <div class="page-header">
+                        <h2>Camera Firmware Information</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Arri" >Arri</a>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Sony">Sony</a>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Red">Red</a>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <a href="#" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Panasonic">Canon</a>
+                    </div>
+                </div>
+            </div>
 
-                </li>
-                <br />
-                <li><b>ARRI Debayer Algorithm ADA-5</b> (ALEXA Classic, XT/XR)<br />
-                    ADA-5 is the latest revision of the ARRI debayering algorithm, used to create a color image from the sensor's raw Bayer data. It offers better image quality for ProRes and DNxHD recording, for the REC OUT, MON OUT and the EVF-1 electronic viewfinder. ADA-5 has already been made available in the ARRIRAW SDK for offline image processing. The new algorithm improves rendering of small, high contrast details and reduces the noise level in the red and blue channels. 
-                </li>
-                <br />        
-                <li><b>Expanded Media Support</b> (ALEXA Classic, XT/XR)<br />
-                    In addition to previously supported media, cameras running SUP 11 also support SxS PRO+ revision C cards (SBP-64C and SBP-128C) and SanDisk CFast 2.0 128 GB cards (ALEXA XT/XR).
-                </li>
-                <br />    
-                <li>
-                    <b>Expanded Support</b> for the ARRI Electronic Control System (ECS) (ALEXA Classic, XT/XR)
-                    
-                    SUP 11 supports the new Lens Data Encoder LDE-1 and provides a number of new features when using the WCU-4 with ALEXA cameras.
-                </li>
-                <br />
-                <li><b>Web Remote 2.0</b> (ALEXA Classic, XT/XR)
-                    The camera web remote has a greatly improved user interface and better functionality.
-                </li>
-                <br />
-                <li><b>Refined User Buttons</b> (ALEXA Classic, XT/XR)
-                    The 'Check Last Clip' user button command has been split into two new commands:
-                    
-                    'Check last clip end' and 'Check last clip start' for greater flexibility.
-                </li>
-                <br />
-                <li>
-                    <b>ARRIRAW Checksum</b> (ALEXA XT/XR)
-                    The camera now records checksum information for each ARRIRAW frame that can be used to verify the integrity of the image data. This function greatly shortens the verification time during the copy process and offers even more safety when working with ARRIRAW data
-                </li>
-                <br />        
-                <li><b>Refined User Buttons</b> (ALEXA Classic, XT/XR)
-                    Up to six framelines can now be saved in metadata. THey can be used to speed up automatied dailies processing or can be displayed in post software. 
-                </li>
-                <br />
-                <li><b>Time Zone in the Metadata</b> (ALEXA Classic, XT/XR)
-                    ALEXA cameras now save time zone information in metadata, as we have seen some post systems require this information for a smooth workflow.
-                </li>    
+            <div class="container">	
 
-            </ul>
-            <br />        
-            <p>Full firmware details can be viewed here (PDF): <a href="#">Link</a> 
-    	</div>
+                <div class="row">   
+                    <div class="page-header">
+                        <h2 class="text-uppercase">Alexa</h2>
+                    </div>	
+                </div>
 
-    	<div class="row" style="padding: 15px 0px 15px 0px">
-    		
-    		<p class="visible-xs">Extra Small device</p>
-    		<p class="visible-sm">Small device</p>
-    		<p class="visible-md">Medium device</p>
-    		<p class="visible-lg">Large device</p>
-    	</div>	
+                <div class="row">
+            		<h3>SUP 11.0.1</h3>
+                    <br />
+                    <h4>Bug Fixes:</h4>
+                    <ul>
+                        <li>a bug that created problems for third party equipment using the ALEXA metadata</li>
+                        <li>a bug that could stop recording in rare cases when recording ProRes 3.2K 4444 @ 29.976 fps with audio</li>
+                        <li>a bug that prevented the proper use of the PHASE button</li>
+                        <li>a bug that made extended range the MON OUT default for 4:3 Sensor mode (when it should be legal range)</li>
+                    </ul>
+                    <br />
+                    <h4>New Features:</h4>
+                    <ul>
+                        <li><b>ALEXA ProRes 3.2K</b> (ALEXA XT/XR)<br />
+                            ALEXA ProRes 3.2K is a new recording resolution that uses 3.2K photosites from the sensor to record a 16:9 3.2K ProRes file. This format is specifically designed for TV productions that can create their 4K         UHD deliverable by up-sampling 3.2K to 3.8K (4K UHD) in post. Despite the minor up-scale, the image quality is usually equal to or better than that of other cameras.
 
-    	<div class="row">
-	            <div class="col-xs-12">
-	            <footer>
-	                <p>&copy; Copyright 2015 James Malamatinas</p>
-	            </footer>
-	            </div>
-	    </div>
+                        </li>
+                        <br />
+                        <li><b>ARRI Debayer Algorithm ADA-5</b> (ALEXA Classic, XT/XR)<br />
+                            ADA-5 is the latest revision of the ARRI debayering algorithm, used to create a color image from the sensor's raw Bayer data. It offers better image quality for ProRes and DNxHD recording, for the REC OUT, MON OUT and the EVF-1 electronic viewfinder. ADA-5 has already been made available in the ARRIRAW SDK for offline image processing. The new algorithm improves rendering of small, high contrast details and reduces the noise level in the red and blue channels. 
+                        </li>
+                        <br />        
+                        <li><b>Expanded Media Support</b> (ALEXA Classic, XT/XR)<br />
+                            In addition to previously supported media, cameras running SUP 11 also support SxS PRO+ revision C cards (SBP-64C and SBP-128C) and SanDisk CFast 2.0 128 GB cards (ALEXA XT/XR).
+                        </li>
+                        <br />    
+                        <li>
+                            <b>Expanded Support</b> for the ARRI Electronic Control System (ECS) (ALEXA Classic, XT/XR)
+                            
+                            SUP 11 supports the new Lens Data Encoder LDE-1 and provides a number of new features when using the WCU-4 with ALEXA cameras.
+                        </li>
+                        <br />
+                        <li><b>Web Remote 2.0</b> (ALEXA Classic, XT/XR)
+                            The camera web remote has a greatly improved user interface and better functionality.
+                        </li>
+                        <br />
+                        <li><b>Refined User Buttons</b> (ALEXA Classic, XT/XR)
+                            The 'Check Last Clip' user button command has been split into two new commands:
+                            
+                            'Check last clip end' and 'Check last clip start' for greater flexibility.
+                        </li>
+                        <br />
+                        <li>
+                            <b>ARRIRAW Checksum</b> (ALEXA XT/XR)
+                            The camera now records checksum information for each ARRIRAW frame that can be used to verify the integrity of the image data. This function greatly shortens the verification time during the copy process and offers even more safety when working with ARRIRAW data
+                        </li>
+                        <br />        
+                        <li><b>Refined User Buttons</b> (ALEXA Classic, XT/XR)
+                            Up to six framelines can now be saved in metadata. THey can be used to speed up automatied dailies processing or can be displayed in post software. 
+                        </li>
+                        <br />
+                        <li><b>Time Zone in the Metadata</b> (ALEXA Classic, XT/XR)
+                            ALEXA cameras now save time zone information in metadata, as we have seen some post systems require this information for a smooth workflow.
+                        </li>    
 
+                    </ul>
+                    <br />        
+                    <p>Full firmware details can be viewed here (PDF): <a href="#">Link</a></p>
+                </div>
 
-    </div>
+                <div class="row">
+                    <div class="page-header">
+                        <h2 class="text-uppercase">Amira</h2>
+                    </div>  
+                </div>
 
+                <div class="row">
+                    <h3>SUP 2</h3>
+                    <br />
+                    <h4>Bug Fixes:</h4>
+                    <h4>New Features:</h4>
+                </div>    
 
+            	<div class="row" style="padding: 15px 0px 15px 0px">
+            		
+            		<p class="visible-xs">Extra Small device</p>
+            		<p class="visible-sm">Small device</p>
+            		<p class="visible-md">Medium device</p>
+            		<p class="visible-lg">Large device</p>
+            	</div>	
+
+            	<div class="row">
+                    <div class="col-xs-12">
+                        <footer>
+                            <p>&copy; Copyright 2015 James Malamatinas</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
