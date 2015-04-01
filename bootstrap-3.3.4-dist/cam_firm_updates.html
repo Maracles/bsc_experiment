@@ -17,104 +17,44 @@
         <![endif]-->
     </head>
     <body>
-        <div class="container" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12" style="padding: 20px 0 0 15px">
-                        <a href="index.html" class="btn btn-default disabled" value="Home" >Home</a>
-                    </div>    		
-                </div>
-                <div class="row">
-    	           <div class="page-header">
-                        <h2>Camera Firmware Information</h2>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div role="tabpanel">
-                        <!-- Nav Tabs -->
-                        <ul class="nav nav-pills" role="tablist">
-                            <li role="presentation" class="active">
-                                <a href="#Arri" aria-controls="arri" role="tab" data-toggle="tab">Arri</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#Sony" aria-controls="sony" role="tab" data-toggle="tab">Sony</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#Red" aria-controls="Red" role="tab" data-toggle="tab">Red</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#Canon" aria-controls="canon" role="tab" data-toggle="tab">Canon</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="arri">
-                            <div class="row">   
-                                <div class="page-header">
-                                    <h2 class="text-uppercase">Alexa</h2>
-                                </div>  
-                            </div>
-
-
-                            
-                        </div>
-
-                        <div role="tabpanel" class="tab-pane" id="sony">
-                            <div class="row">   
-                                <div class="page-header">
-                                    <h2 class="text-uppercase">Sony</h2>
-                                </div>  
-                            </div>
-                        </div>
-
-                        <div role="tabpanel" class="tab-pane" id="red">
-
-                        </div>
-
-                        <div role="tabpanel" class="tab-pane" id="canon">
-
-                        </div>
-                                                
-                    </div>
-
-                </div>
-                
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <a href="#" onclick="showContentTest(arriFirmware)" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Arri" >Arri</a>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <a href="#" onclick="getElementById('sonyFirmware').style.visibility = 'Visible'" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Sony">Sony</a>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <a href="#" onclick="getElementById('redFirmware').style.visibility = 'Visible'" class="btn btn-primary onclick=" style="width: 100px; margin: 5px 0px 5px 0px" value="Red">Red</a>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <a href="#" onclick="getElementById('arriFirmware').style.visibility = 'Visible'" class="btn btn-primary" style="width: 100px; margin: 5px 0px 5px 0px" value="Canon">Canon</a>
-                    </div>
-                </div>
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12" style="padding: 20px 0 0 15px">
+                <a href="index.html" class="btn btn-default disabled" value="Home" >Home</a>               
+            </div>    		
+        </div>
+        <div class="row">
+            <div class="page-header">
+               <h2>Camera Firmware Information</h2>
             </div>
+        </div>
 
-            <!-- 
-            *
-            *
-            This is the content section for ARRI content 
-            *
-            *
-            -->
-
-            <div class="container">	
-                <div class="container"id="arriFirmware" style="visibility: hidden;">   
+        <div class="row">
+            <!-- Nav Tabs -->
+            <ul class="nav nav-pills" role="tablist">
+                <li class="nav active">
+                    <a href="#arri" aria-controls="arri" role="tab" data-toggle="tab">Arri</a>
+                </li>
+                <li class="nav">
+                    <a href="#sony" aria-controls="sony" role="tab" data-toggle="tab">Sony</a>
+                </li>
+                <li class="nav">
+                    <a href="#red" aria-controls="Red" role="tab" data-toggle="tab">Red</a>
+                </li>
+                <li class="nav">
+                    <a href="#canon" aria-controls="canon" role="tab" data-toggle="tab">Canon</a>
+                </li>
+            </ul>
+                    
+            <div class="tab-content">
+                <div class="tab-pane active" id="arri">
                     <div class="row">   
                         <div class="page-header">
                             <h2 class="text-uppercase">Alexa</h2>
-                        </div>	
-                    </div>
-
-                    <div class="row">
-                		<h3>SUP 11.0.1</h3>
+                        </div>  
+                        <div class="row">
+                        <h3>SUP 11.0.1</h3>
                         <br />
                         <h4>Bug Fixes:</h4>
                         <ul>
@@ -185,9 +125,9 @@
                             <h4>New Features:</h4>
                         </div>                            
                     </div>
+                    </div>
                 </div>
-
-                <div class="container" id="sonyFirmware" style="visibility: hidden;">   
+                <div role="tabpanel" class="tab-pane" id="sony">
                     <div class="row">   
                         <div class="page-header">
                             <h2 class="text-uppercase">Sony</h2>
@@ -195,10 +135,27 @@
                     </div>
                 </div>
 
+                <div role="tabpanel" class="tab-pane" id="red">
+                    <div class="row">   
+                        <div class="page-header">
+                            <h2 class="text-uppercase">Red</h2>
+                        </div>  
+                    </div>
+                </div>
 
-                
-
-            	<div class="row" style="padding: 15px 0px 15px 0px">
+                <div role="tabpanel" class="tab-pane" id="canon">
+                    <div class="row">   
+                        <div class="page-header">
+                            <h2 class="text-uppercase">Canon</h2>
+                        </div>  
+                    </div>
+                </div>
+                                    
+            </div>
+        </div>
+            </div>
+            <div class="container">	
+                <div class="row" style="padding: 15px 0px 15px 0px">
             		
             		<p class="visible-xs">Extra Small device</p>
             		<p class="visible-sm">Small device</p>
@@ -215,13 +172,17 @@
                 </div>
             </div>
         </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="jsCustom/contentFunctions.js"></script>
+    
+        <script type="text/javascript">
+        
 
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="jsCustom/contentFunctions.js"></script>
+    
 
     
 
