@@ -31,6 +31,7 @@
         <!-- Main Navigation tabs -->
     
         <div role="tabpanel">
+
           <ul class="nav nav-pills" role="tablist">
             <li class="nav active">
               <a href="#arri" aria-controls="arri" role="tab" data-toggle="tab">Arri</a>
@@ -46,56 +47,68 @@
             </li>
           </ul>
 
-            <!-- Main tabs Content -->
-            <div class="tab-content">
-                <!-- Arri Content -->
-                <div role="tabpanel" class="tab-pane active"  id="arri">
-                    <div role="tabpanel">
-                        <br /><br />
+        <!-- Main tabs Content -->
+        <div class="tab-content">
+            <!-- Arri Content -->
+            <div role="tabpanel" class="tab-pane active"  id="arri">
+                <div role="tabpanel">
+                    <br /><br />
 
-                        <!-- Arri Camera Tab List -->
-                        <ul class="nav nav-pills" role="tablist">
-                            <li class="nav active">
-                                <a href="#alexa" aria-controls="alexa" role="tab" data-toggle="pill">Alexa</a>
-                            </li>
-                            <li class="nav">
-                                <a href="#amira" aria-controls="amira" role="tab" data-toggle="pill">Amira</a>
-                            </li>
-                            <li class="nav">
-                                <a href="#alexa65" aria-controls="alexa65" role="tab" data-toggle="pill">Alexa 65</a>
-                            </li>
-                            <li class="nav">
-                                <a href="#alexamini" aria-controls="alexamini" role="tab" data-toggle="pill">Alexa Mini</a>
-                            </li>
-                        </ul>
+                    <!-- Arri Camera Tab List -->
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav active">
+                            <a href="#alexa" aria-controls="alexa" role="tab" data-toggle="pill">Alexa</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#amira" aria-controls="amira" role="tab" data-toggle="pill">Amira</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#alexa65" aria-controls="alexa65" role="tab" data-toggle="pill">Alexa 65</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#alexamini" aria-controls="alexamini" role="tab" data-toggle="pill">Alexa Mini</a>
+                        </li>
+                    </ul>
 
 
-                        <!-- Arri Firmware Update Content -->
-                        <div class="tab-content">
-							<!-- Alexa Panel -->
-                            <div role="tabpanel" class="tab-pane active" id="alexa">
-                                <div>
-                                	<br />
-                                	<h2 class="text-uppercase">Alexa Firmware Updates</h2>
-	                                <br />
-	                                <div class="page-header">
-	                                	<div class="firmware-section">
-	                                		<div class="row">
-	                                			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-		                                    		<h3>SUP 11.0.1 - <small>Last Updated: 23/03/2015</small></h3><br />
+                    <!-- Arri Firmware Update Content -->
+                    <div class="tab-content">
+						<!-- Alexa Panel -->
+                        <div role="tabpanel" class="tab-pane active" id="alexa">
+                            <div>
+                            	<br />
+                            	<h2 class="text-uppercase">Alexa Firmware Updates</h2>
+                                <br />
+                                <div class="page-header">
+                                	<div class="firmware-section">
+                                		<div class="row">
+                                			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+	                                    		<h3>SUP 11.0.1 - <small>Last Updated: 23/03/2015</small></h3><br />
+	                                    	</div>
+	                                    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	                                    		<h3>
+	                                    			<a class="btn btn-primary pull-right" data-toggle="collapse" 
+	                                    				data-target="#alexasup11-content" aria-expanded="true" aria-controls="alexasup11-content">
+	                                    					Collapse Section
+	                                    			</a>
+	                                    		</h3>
+	                                    	</div>
+	                                   	</div>
+
+	                                   	<div id="alexasup11-content">
+		                                    <div class="row">
+		                                    	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+		                                    		<h4>New Features:</h4>
 		                                    	</div>
 		                                    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-		                                    		<h3>
-		                                    			<a class="btn btn-primary pull-right" data-toggle="collapse" 
-		                                    				data-target="#alexasup11-content" aria-expanded="false" aria-controls="contentCollapse">
-		                                    					Collapse Section
-		                                    			</a>
-		                                    		</h3>
+		                                    		<h4><a class="btn btn-info pull-right" data-toggle="collapse" 
+	                                    				data-target="#alexasup11-new-features" aria-expanded="true" aria-controls="alexasup11-new-features">
+	                                    					Collapse Section
+	                                    			</a></h4>
 		                                    	</div>
-		                                   	</div>
-		                                   	<div id="alexasup11-content">
-			                                    <h4>New Features:</h4>
-			                                    <ul>
+		                                    </div>
+		                                    <div id="alexasup11-new-features">
+												<ul>
 			                                        <li>
 			                                            <b>ALEXA ProRes 3.2K</b> (ALEXA XT/XR)<br />
 			                                            <p style="word-wrap: break-word">ALEXA ProRes 3.2K is a new recording resolution that uses 3.2K photosites
@@ -152,6 +165,9 @@
 			                                            post systems require this information for a smooth workflow.</p>
 			                                        </li>
 			                                    </ul>
+			                                </div>
+			                                <div id="alexasup11-bug-fixes">
+
 			                                    <br />   
 			                                    <h4>Bug Fixes:</h4><br />
 			                                    <ul>
@@ -163,311 +179,310 @@
 			                                        <li>a bug that made extended range the MON OUT default for 4:3 Sensor mode
 			                                         (when it should be legal range)</li>
 			                                    </ul><br />
+			                                </div>
 
-			                                    <p>Full firmware details can be viewed here (PDF): <a href="#">Link</a></p>
+			                                <p>Full firmware details can be viewed here (PDF): <a href="#">Link</a></p>
 
-			                            	</div>
-	                                    </div>
-	                                </div>
+		                            	</div>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Amira -->
-                            <div role="tabpanel" class="tab-pane" id="amira">
-                                <div class="page-header">
-                                    <h2 class="text-uppercase">Amira</h2>
-                                	<div class="firmware-section">
-                                		<div class="row">
-	                                		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-		                                    	<h3>SUP 2.0.0 - <small>Released: 02/04/2015</small></h3><br />
-		                                    </div>
-		                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-		                                    	<h3>
-		                                    		<a class="btn btn-primary pull-right" data-toggle="collapse" 
-		                                    			data-target="#amirasup2-content" aria-expanded="false" aria-controls="contentCollapse">
-		                                    				Collapse Section
-		                                    		</a>
-		                                    	</h3>
-		                                    </div>
-		                                </div>
-
-	                                	<div id="amirasup2-content">
-		                                    <h4>New Features:</h4>
-		                                    <ul>
-		                                        <li>Pro Res 4K UHD recording (wiht 4k UHD license)</li>
-		                                        <li>ProRes 3.2k Recording (with 4k UHD license)</li>
-		                                        <li>6G UHD-SDI Output (technology demo) (with 4k UHD license)</li>
-		                                        <li>Image De-noising Option for 4k UHD (with 4K UHD License)</li>
-		                                        <li>Solo function to toggle audio channels</li>
-		                                        <li>Extended Lock Function</li>
-		                                        <li>Frame rates can now be switched while in Pre Record Mode.</li>
-		                                        <li>The parameters for Image sharpness and Image Detail are now shown in EVF when they are adjusted.</li>
-		                                        <li>For faster access, a 200 fps preset was added to the frame rate lists of AMIRA Advaned and Premium</li>
-		                                        <li>Faster menu operation with "one click" checkboxes for activating/de-activating</li>
-		                                    </ul>
-		                                    <br />
-		                                </div>
-		                            </div>
-
-		                            <div class="firmware-section">
-		                            	<div class="row">
-	                                			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-		                                		    <h3>SUP 1.1.0 - <small>Released: 18/12/2014</small></h3><br />
-		                                		</div>
-		                                    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-		                                    		<h3>
-		                                    			<a class="btn btn-primary pull-right" data-toggle="collapse" 
-		                                    				data-target="#amirasup1-1-content" aria-expanded="false" aria-controls="contentCollapse">
-		                                    					Collapse Section
-		                                    			</a>
-		                                    		</h3>
-		                                    	</div>
-		                                </div>
-	                                    <div id="amirasup1-1-content">
-		                                    <h4>New Features:</h4>
-		                                    <ul>
-		                                        <li>Prerecord Function</li>
-		                                        <li>Bluetooth audio monitoring & comment track</li>
-		                                        <li>Ethernet Remote Control</li>
-		                                        <li>White Balance Auto Tracking</li>
-		                                        <li>HD-SDI out setup (status, overlay, format)</li>
-		                                        <li>Faster boot up time</li>
-		                                        <li>Waveform monitor in EVF & Fold-out Monitor</li>
-		                                        <li>SMPTE Colour Bars</li>
-		                                        <li>ENG lens control (auto iris, return, start-stor recording)</li>
-		                                        <li>Genlock sync with HD SDI signal</li>
-		                                        <li>Audio channels decoupling</li>
-		                                        <li>Simplified messaging</li>
-		                                        <li>Playback button behaviour</li>
-		                                        <li>EF lens iris control</li>
-		                                        <li>New improved de-bayering</li>
-		                                        <li>Many UI and Menu improvments</li>
-		                                        <li>H + V image flip (for UWZ support)</li>
-		                                        <li>LDS Quicktime metadata support</li>
-		                                        <li>LDS data display in EVF/Monitor/SDI (Iris, Focus, Zoom)</li>
-		                                        <li>Image Sharpness & Detail parameters</li>
-		                                        <li>Improved viewfinder zoom and Peaking function</li>
-		                                        <li>Temporary license support</li>
-		                                        <li>High Humidity Mode</li>
-		                                        <li>Audio Line input level</li>
-		                                        <li>Support for new generation SanDisk 128GB cards</li>
-		                                    </ul>	
-		                                    <br />
-		                                    <h3>Bug Fixes</h3>
-		                                    <ul>
-		                                    	<li>ND filters not moving accidently</li>
-		                                    	<li>RS button triggers record start/stop on 1st attempt and on UMC-3</li>
-		                                    	<li>At interlaced project rates (like 50i) remaining card capacity is displayed correctly)</li>
-		                                    	<li>No warning message with timecode jam sync</li>
-		                                    	<li>Improved card slot management</li>
-		                                    	<li>Issues with certain battery packs</li>
-		                                    </ul>
-		                                    <br />
-		                                    <h3>Known Issues</h3>
-		                                    <p><b>Lots! See full notes.</b></p>
+                        <!-- Amira -->
+                        <div role="tabpanel" class="tab-pane" id="amira">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">Amira</h2>
+                            	<div class="firmware-section">
+                            		<div class="row">
+                                		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+	                                    	<h3>SUP 2.0.0 - <small>Released: 02/04/2015</small></h3><br />
 	                                    </div>
-		                                
-									</div>
-	                            </div>
-	                        </div>
+	                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	                                    	<h3>
+	                                    		<a class="btn btn-primary pull-right" data-toggle="collapse" 
+	                                    			data-target="#amirasup2-content" aria-expanded="false" aria-controls="contentCollapse">
+	                                    				Collapse Section
+	                                    		</a>
+	                                    	</h3>
+	                                    </div>
+	                                </div>
 
-	                            <!-- Alexa 65 -->
-	                            <div role="tabpanel" class="tab-pane" id="alexa65">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">Alexa 65</h2>
+                                	<div id="amirasup2-content">
+	                                    <h4>New Features:</h4>
+	                                    <ul>
+	                                        <li>Pro Res 4K UHD recording (wiht 4k UHD license)</li>
+	                                        <li>ProRes 3.2k Recording (with 4k UHD license)</li>
+	                                        <li>6G UHD-SDI Output (technology demo) (with 4k UHD license)</li>
+	                                        <li>Image De-noising Option for 4k UHD (with 4K UHD License)</li>
+	                                        <li>Solo function to toggle audio channels</li>
+	                                        <li>Extended Lock Function</li>
+	                                        <li>Frame rates can now be switched while in Pre Record Mode.</li>
+	                                        <li>The parameters for Image sharpness and Image Detail are now shown in EVF when they are adjusted.</li>
+	                                        <li>For faster access, a 200 fps preset was added to the frame rate lists of AMIRA Advaned and Premium</li>
+	                                        <li>Faster menu operation with "one click" checkboxes for activating/de-activating</li>
+	                                    </ul>
+	                                    <br />
+	                                </div>
+	                            </div>
+
+	                            <div class="firmware-section">
+	                            	<div class="row">
+                                			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+	                                		    <h3>SUP 1.1.0 - <small>Released: 18/12/2014</small></h3><br />
+	                                		</div>
+	                                    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	                                    		<h3>
+	                                    			<a class="btn btn-primary pull-right" data-toggle="collapse" 
+	                                    				data-target="#amirasup1-1-content" aria-expanded="false" aria-controls="contentCollapse">
+	                                    					Collapse Section
+	                                    			</a>
+	                                    		</h3>
+	                                    	</div>
+	                                </div>
+                                    <div id="amirasup1-1-content">
+	                                    <h4>New Features:</h4>
+	                                    <ul>
+	                                        <li>Prerecord Function</li>
+	                                        <li>Bluetooth audio monitoring & comment track</li>
+	                                        <li>Ethernet Remote Control</li>
+	                                        <li>White Balance Auto Tracking</li>
+	                                        <li>HD-SDI out setup (status, overlay, format)</li>
+	                                        <li>Faster boot up time</li>
+	                                        <li>Waveform monitor in EVF & Fold-out Monitor</li>
+	                                        <li>SMPTE Colour Bars</li>
+	                                        <li>ENG lens control (auto iris, return, start-stor recording)</li>
+	                                        <li>Genlock sync with HD SDI signal</li>
+	                                        <li>Audio channels decoupling</li>
+	                                        <li>Simplified messaging</li>
+	                                        <li>Playback button behaviour</li>
+	                                        <li>EF lens iris control</li>
+	                                        <li>New improved de-bayering</li>
+	                                        <li>Many UI and Menu improvments</li>
+	                                        <li>H + V image flip (for UWZ support)</li>
+	                                        <li>LDS Quicktime metadata support</li>
+	                                        <li>LDS data display in EVF/Monitor/SDI (Iris, Focus, Zoom)</li>
+	                                        <li>Image Sharpness & Detail parameters</li>
+	                                        <li>Improved viewfinder zoom and Peaking function</li>
+	                                        <li>Temporary license support</li>
+	                                        <li>High Humidity Mode</li>
+	                                        <li>Audio Line input level</li>
+	                                        <li>Support for new generation SanDisk 128GB cards</li>
+	                                    </ul>	
+	                                    <br />
+	                                    <h3>Bug Fixes</h3>
+	                                    <ul>
+	                                    	<li>ND filters not moving accidently</li>
+	                                    	<li>RS button triggers record start/stop on 1st attempt and on UMC-3</li>
+	                                    	<li>At interlaced project rates (like 50i) remaining card capacity is displayed correctly)</li>
+	                                    	<li>No warning message with timecode jam sync</li>
+	                                    	<li>Improved card slot management</li>
+	                                    	<li>Issues with certain battery packs</li>
+	                                    </ul>
+	                                    <br />
+	                                    <h3>Known Issues</h3>
+	                                    <p><b>Lots! See full notes.</b></p>
+                                    </div>
 	                                
-	                                    <h3>Coming soon. <small>Released: TBC</small></h3><br />
-	                                </div>
-	                            </div>
+								</div>
+                            </div>
+                        </div>
 
-	                            <!-- Alexa Mini -->
-	                            <div role="tabpanel" class="tab-pane" id="alexamini">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">Alexa Mini</h2>
-	                                
-	                                    <h3>Coming soon. <small>Released: TBC</small></h3><br />
-	                                </div>
-	                            </div>
+                        <!-- Alexa 65 -->
+                        <div role="tabpanel" class="tab-pane" id="alexa65">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">Alexa 65</h2>
+                            
+                                <h3>Coming soon. <small>Released: TBC</small></h3><br />
+                            </div>
+                        </div>
 
-							</div>
-	                    </div>
-	                </div>        
+                        <!-- Alexa Mini -->
+                        <div role="tabpanel" class="tab-pane" id="alexamini">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">Alexa Mini</h2>
+                            
+                                <h3>Coming soon. <small>Released: TBC</small></h3><br />
+                            </div>
+                        </div>
 
-	                <!-- Sony Content -->
-	                <div role="tabpanel" class="tab-pane" id="sony">
-	                    <div role="tabpanel">
-	                        <br /><br />
-	                        <!-- Sony Camera Tab List -->
-	                        <ul class="nav nav-pills" role="tablist">
-	                            <li class="nav active">
-	                                <a href="#f55" aria-controls="f55" role="tab" data-toggle="pill">F55/5</a>
-	                            </li>
-	                            <li class="nav">
-	                                <a href="#f65" aria-controls="f65" role="tab" data-toggle="pill">F65</a>
-	                            </li>
-	                        </ul>
+					</div>
+                </div>
+            </div>        
 
-	                        <div class="tab-content">
-	                            <div role="tabpanel" class="tab-pane active" id="f55">
-	                                <div class="page-header">
-	                                	<div class="firmware-section">
-		                                    <h2 class="text-uppercase">F55/5</h2>
-		                                
-		                                    <h3>v5.0 Firmware - <small>Last Updated: 14/04/2015</small></h3><br />
-		                                    <h4>New Features</h4>
-		                                    <ul>
-		                                    	<li><b>Additional Codec Support, Apple ProRes and AvidDNxHD with CBK-55PD</b>
-		                                    	<p>F55/F5 can record playback in ProRes 42 HQ and ProRes 422 on 23.98p, 24p, 25p,29.97p, 50i, 59.94i and DNxHD220x, and DNxHD145 on 23.98p, 25p, 29.97p, 50i, 59.94i by installing the optional CBK-55PD (sold separately).</p></li>
+            <!-- Sony Content -->
+            <div role="tabpanel" class="tab-pane" id="sony">
+                <div role="tabpanel">
+                    <br /><br />
+                    <!-- Sony Camera Tab List -->
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav active">
+                            <a href="#f55" aria-controls="f55" role="tab" data-toggle="pill">F55/5</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#f65" aria-controls="f65" role="tab" data-toggle="pill">F65</a>
+                        </li>
+                    </ul>
 
-		                                    	<li><b>Support for optional ENG and Documentary shoulder mount dock CBK-55BK</b></li><p>The F55/F5 is compatible with the optional CBK-55BK (sold separately). CBK-55BK is a specialized accessory docking unit with shoulder Pad and Interface for the PMW-F55/F5. This accessory can be attached easily and allows users to access key functions such as Shutter, Gain, White Balance, Rec Button and Assignable Buttons. In addition the CBK-55BK supports Wireless slot-in audio receiver and Audio control like standard Broadcast shoulder camcorders.</p>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="f55">
+                            <div class="page-header">
+                            	<div class="firmware-section">
+                                    <h2 class="text-uppercase">F55/5</h2>
+                                
+                                    <h3>v5.0 Firmware - <small>Last Updated: 14/04/2015</small></h3><br />
+                                    <h4>New Features</h4>
+                                    <ul>
+                                    	<li><b>Additional Codec Support, Apple ProRes and AvidDNxHD with CBK-55PD</b>
+                                    	<p>F55/F5 can record playback in ProRes 42 HQ and ProRes 422 on 23.98p, 24p, 25p,29.97p, 50i, 59.94i and DNxHD220x, and DNxHD145 on 23.98p, 25p, 29.97p, 50i, 59.94i by installing the optional CBK-55PD (sold separately).</p></li>
 
-		                                    	<li><b>Support for optional 4K software upgrade for F5</b><p>By installing the dedicated software upgrade option CBKZ-55FX (sold separately), recording and playback of XAVC 4K and XAVC QFHD is available for the PMW-F5. In addition, simultaneous recording function with MPEG Proxy is available.</p></li>
+                                    	<li><b>Support for optional ENG and Documentary shoulder mount dock CBK-55BK</b></li><p>The F55/F5 is compatible with the optional CBK-55BK (sold separately). CBK-55BK is a specialized accessory docking unit with shoulder Pad and Interface for the PMW-F55/F5. This accessory can be attached easily and allows users to access key functions such as Shutter, Gain, White Balance, Rec Button and Assignable Buttons. In addition the CBK-55BK supports Wireless slot-in audio receiver and Audio control like standard Broadcast shoulder camcorders.</p>
 
-		                                    	<li><b>Interval Rec function with XAVC and RAW</b><p>Interval Rec function allows you to record frames specified at regular intervals. Interval Rec function is available with XAVC format and RAW recording with the AXS-R5.</p></li>
+                                    	<li><b>Support for optional 4K software upgrade for F5</b><p>By installing the dedicated software upgrade option CBKZ-55FX (sold separately), recording and playback of XAVC 4K and XAVC QFHD is available for the PMW-F5. In addition, simultaneous recording function with MPEG Proxy is available.</p></li>
 
-		                                    	<li><b>HDCAM SR File, (SStP) SR-SQ 422 in 59.94i (F55 only)</b><p>PMW-F55 supports SStP SR-SQ 422 in 59.94i. Also simultaneous recording function with MPEG Proxy is available.</p></li>
+                                    	<li><b>Interval Rec function with XAVC and RAW</b><p>Interval Rec function allows you to record frames specified at regular intervals. Interval Rec function is available with XAVC format and RAW recording with the AXS-R5.</p></li>
 
-		                                    	<li><b>Memory A/B white balance in Custom mode</b><p>White balance Memory is expanded to Memory A and Memory B in Custom mode. The color temperature can be set independently.</p></li>
+                                    	<li><b>HDCAM SR File, (SStP) SR-SQ 422 in 59.94i (F55 only)</b><p>PMW-F55 supports SStP SR-SQ 422 in 59.94i. Also simultaneous recording function with MPEG Proxy is available.</p></li>
 
-		                                    	<li><b>Noise suppression is available in Cine EI mode</b><p>“Noise Suppression” setting in the Camera menu is available even in Cine EI mode. The default setting is OFF.</p></li>
+                                    	<li><b>Memory A/B white balance in Custom mode</b><p>White balance Memory is expanded to Memory A and Memory B in Custom mode. The color temperature can be set independently.</p></li>
 
-		                                    	<li><b>Added selectable functions for Assignable Button</b><p>“Color Bars,” “VF Focus Magnifier,” and “White Memory” (switching between Memory A/B) are added to “Assignable Button”</p></li>
+                                    	<li><b>Noise suppression is available in Cine EI mode</b><p>“Noise Suppression” setting in the Camera menu is available even in Cine EI mode. The default setting is OFF.</p></li>
 
-		                                    	<li><b>Direct Changing FPS (STEP) using Menu dial</b><p>During S&Q Motion, FPS can be changed by pushing and rotating the Menu dial. You can set 6 steps of Frame Rate in “Menu Dial Assign” in “Assignable Button” menu.</p></li>
+                                    	<li><b>Added selectable functions for Assignable Button</b><p>“Color Bars,” “VF Focus Magnifier,” and “White Memory” (switching between Memory A/B) are added to “Assignable Button”</p></li>
 
-		                                    </ul>
-		                                    <br />
-		                                    <h4>Bug Fixes</h4>
-		                                    <ul>		
-			                                    <li><p>When using assignable button of marker, incorrect message was displayed. This has been fixed.</p></li>
+                                    	<li><b>Direct Changing FPS (STEP) using Menu dial</b><p>During S&Q Motion, FPS can be changed by pushing and rotating the Menu dial. You can set 6 steps of Frame Rate in “Menu Dial Assign” in “Assignable Button” menu.</p></li>
 
-			                                    <li><p>After APR in HFR mode, in some cases Frame Rate was changed to 60FPS automatically. This has been fixed.</p></li>
+                                    </ul>
+                                    <br />
+                                    <h4>Bug Fixes</h4>
+                                    <ul>		
+	                                    <li><p>When using assignable button of marker, incorrect message was displayed. This has been fixed.</p></li>
 
-			                                    <li><p>In some cases false color function with DVF-EL100 and DVF-L700 worked in S-Log3 incorrectly. This has been fixed. False color function is available only when S-Log2 is selected.</p></li>
+	                                    <li><p>After APR in HFR mode, in some cases Frame Rate was changed to 60FPS automatically. This has been fixed.</p></li>
 
-			                                    <li><p>While simultaneous recording with RAW and MPEG50 in 50 and 59.94, recording start frame of MPEG50 was delayed. This has been fixed.</p></li>
+	                                    <li><p>In some cases false color function with DVF-EL100 and DVF-L700 worked in S-Log3 incorrectly. This has been fixed. False color function is available only when S-Log2 is selected.</p></li>
 
-			                                    <li><p>Double Speed VF setting was automatically turned off when HFR mode turns off. This has been fixed. Double Speed VF setting remains when changing HFR mode on/off.</p></li>
-			                                </ul>
-			                                <br />
+	                                    <li><p>While simultaneous recording with RAW and MPEG50 in 50 and 59.94, recording start frame of MPEG50 was delayed. This has been fixed.</p></li>
 
-			                                <h4>Known Bugs</h4>
-		                                    <ul>
-		                                    	<li><b>iOS setting for Wi-Fi Remote</b><p>While using Wi-Fi Remote with iOS devices and Safari, please turn off Private browse function.</p></li>
+	                                    <li><p>Double Speed VF setting was automatically turned off when HFR mode turns off. This has been fixed. Double Speed VF setting remains when changing HFR mode on/off.</p></li>
+	                                </ul>
+	                                <br />
 
-		                                    	<li><b>All File Support</b><p>ll files which are created with Firmware v5.0 are <b><u>not</u></b> compatible with an earlier firmware version.</p></li>
+	                                <h4>Known Bugs</h4>
+                                    <ul>
+                                    	<li><b>iOS setting for Wi-Fi Remote</b><p>While using Wi-Fi Remote with iOS devices and Safari, please turn off Private browse function.</p></li>
 
-		                                    	<li><b>Auto Reboot after ABB and APR on ProRes and DNxHD</b><p>When ABB or APR is executed in ProRes and DNxHD mode, PMW-F55/F5 automatically reboots after displaying “Auto Black Balance OK” or “RPN Auto Detection OK ” and “Rebooting…..”. This sequence is normal. ABB or APR is correctly executed.</p></li>
+                                    	<li><b>All File Support</b><p>ll files which are created with Firmware v5.0 are <b><u>not</u></b> compatible with an earlier firmware version.</p></li>
 
-		                                    	<li><b>Assignable buttons setting does not remain</b><p>When you update to v5.0 from an earlier version of firmware, or load ALL File generated in an earlier version of firmware, the Assignable buttons setting does not remain. Please set each assignable buttons manually.</p></li>
+                                    	<li><b>Auto Reboot after ABB and APR on ProRes and DNxHD</b><p>When ABB or APR is executed in ProRes and DNxHD mode, PMW-F55/F5 automatically reboots after displaying “Auto Black Balance OK” or “RPN Auto Detection OK ” and “Rebooting…..”. This sequence is normal. ABB or APR is correctly executed.</p></li>
 
-		                                    </ul>	
-		                                    <br />   
-		                                    <p>Full information can be viewed in the manual available here (PDF): <a href="#">Link</a></p>
+                                    	<li><b>Assignable buttons setting does not remain</b><p>When you update to v5.0 from an earlier version of firmware, or load ALL File generated in an earlier version of firmware, the Assignable buttons setting does not remain. Please set each assignable buttons manually.</p></li>
+
+                                    </ul>	
+                                    <br />   
+                                    <p>Full information can be viewed in the manual available here (PDF): <a href="#">Link</a></p>
 
 
 
-	                                	</div>
-	                                </div>
-	                            </div>
+                            	</div>
+                            </div>
+                        </div>
 
-	                            <div role="tabpanel" class="tab-pane" id="f65">
-	                                <div class="page-header firmware-section">
-	                                    <h2 class="text-uppercase">F65</h2>
-	                                
-	                                    <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
+                        <div role="tabpanel" class="tab-pane" id="f65">
+                            <div class="page-header firmware-section">
+                                <h2 class="text-uppercase">F65</h2>
+                            
+                                <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	                
+            <!-- Red Content -->
+            <div role="tabpanel" class="tab-pane" id="red">
+                <div role="tabpanel">
+                    <br /><br />
+                    <!-- Red Camera Tab List -->
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav active">
+                            <a href="#dragon" aria-controls="dragon" role="tab" data-toggle="pill">Dragon</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#epic" aria-controls="epic" role="tab" data-toggle="pill">Epic</a>
+                        </li>
+                    </ul>
 
-	                <!-- Red Content -->
-	                <div role="tabpanel" class="tab-pane" id="red">
-	                    <div role="tabpanel">
-	                        <br /><br />
-	                        <!-- Red Camera Tab List -->
-	                        <ul class="nav nav-pills" role="tablist">
-	                            <li class="nav active">
-	                                <a href="#dragon" aria-controls="dragon" role="tab" data-toggle="pill">Dragon</a>
-	                            </li>
-	                            <li class="nav">
-	                                <a href="#epic" aria-controls="epic" role="tab" data-toggle="pill">Epic</a>
-	                            </li>
-	                        </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="dragon">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">Dragon</h2>
+                            
+                                <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
+                            </div>
+                        </div>
 
-	                        <div class="tab-content">
-	                            <div role="tabpanel" class="tab-pane active" id="dragon">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">Dragon</h2>
-	                                
-	                                    <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
-	                                </div>
-	                            </div>
+                        <div role="tabpanel" class="tab-pane" id="Epic">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">Epic</h2>
+                            
+                                <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
 
-	                            <div role="tabpanel" class="tab-pane" id="Epic">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">Epic</h2>
-	                                
-	                                    <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
+            <!-- Canon Content -->
+            <div role="tabpanel" class="tab-pane" id="canon">
+               <div role="tabpanel">
+                    <br /><br />
+                    <!-- Canon Camera Tab List -->
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav active">
+                            <a href="#c500" aria-controls="c500" role="tab" data-toggle="pill">C500</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#c300" aria-controls="c300" role="tab" data-toggle="pill">C300</a>
+                        </li>
+                        <li class="nav">
+                            <a href="#c100" aria-controls="c100" role="tab" data-toggle="pill">C100</a>
+                        </li>
+                    </ul>
 
-	                </div>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="c500">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">C500</h2>
+                            
+                                <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
+                            </div>
+                        </div>
 
-	                <!-- Canon Content -->
-	                <div role="tabpanel" class="tab-pane" id="canon">
-	                   <div role="tabpanel">
-	                        <br /><br />
-	                        <!-- Canon Camera Tab List -->
-	                        <ul class="nav nav-pills" role="tablist">
-	                            <li class="nav active">
-	                                <a href="#c500" aria-controls="c500" role="tab" data-toggle="pill">C500</a>
-	                            </li>
-	                            <li class="nav">
-	                                <a href="#c300" aria-controls="c300" role="tab" data-toggle="pill">C300</a>
-	                            </li>
-	                            <li class="nav">
-	                                <a href="#c100" aria-controls="c100" role="tab" data-toggle="pill">C100</a>
-	                            </li>
-	                        </ul>
+                        <div role="tabpanel" class="tab-pane" id="c300">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">C300</h2>
+                            
+                                <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
+                            </div>
+                        </div>
 
-	                        <div class="tab-content">
-	                            <div role="tabpanel" class="tab-pane active" id="c500">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">C500</h2>
-	                                
-	                                    <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
-	                                </div>
-	                            </div>
+                        <div role="tabpanel" class="tab-pane" id="c100">
+                            <div class="page-header">
+                                <h2 class="text-uppercase">C100</h2>
+                            
+                                <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	                            <div role="tabpanel" class="tab-pane" id="c300">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">C300</h2>
-	                                
-	                                    <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3><br />
-	                                </div>
-	                            </div>
-
-	                            <div role="tabpanel" class="tab-pane" id="c100">
-	                                <div class="page-header">
-	                                    <h2 class="text-uppercase">C100</h2>
-	                                
-	                                    <h3>SUP 0.0.0 - <small>Last Updated: 23/03/2015</small></h3>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	             </div>
+             </div>
 
 
             </div>
-        </div>  
+        
         
         <!-- Screen size detecter -->	
         <div class="row">
